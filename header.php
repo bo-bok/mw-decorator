@@ -20,4 +20,16 @@
     <!--  SITE HEADER -->
     <!-- ================================================================ -->
     <header>
+
+      <!-- Displays primary navigation -->
+        <?php
+          $defaults = array(
+            'container' => false,
+            'theme_location' => 'primary-menu', //tells wp where menu lives
+            // 'menu_class' => 'nav col-sm-5 col-md-7'
+          );
+
+          wp_nav_menu( $defaults );
+        ?>
+
     </header>

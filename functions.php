@@ -3,6 +3,19 @@
 add_theme_support( 'menus' );
 add_theme_support( 'title-tag' );
 
+
+// this function makes WP recognise our menu(s)
+function register_theme_menus(){
+  register_nav_menus(
+    array(
+      'primary-menu' => __( 'Primary Menu' ),
+    )
+  );
+}
+add_action( 'init', 'register_theme_menus');
+
+
+
 // this function loads the style (css) files
 function mw_theme_styles(){
   wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
