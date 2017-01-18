@@ -1,5 +1,9 @@
 <?php
 
+add_theme_support( 'menus' );
+add_theme_support( 'title-tag' );
+
+add_theme_support();
 // this function loads the style (css) files
 function mw_theme_styles(){
   wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
