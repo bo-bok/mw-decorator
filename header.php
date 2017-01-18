@@ -11,7 +11,7 @@
 
   <body <?php body_class(); ?>>
 
-    <?php include_once("analyticstracking.php") ?>
+    <!-- <?php include_once("analyticstracking.php") ?> -->
     <!-- call GA - add GA JS file-->
 
     <div class="page-container">
