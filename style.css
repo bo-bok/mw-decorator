@@ -9,6 +9,9 @@ body {
   min-width: 320px;
 }
 
+* {
+  box-sizing: border-box;
+}
 
 /* HEADER */
 /* ========================================================================= */
@@ -18,21 +21,25 @@ header {
   width: 100%;
 }
 
+.header-logo {
+  padding: 0;
+}
+
 nav {
-  width: 50%;
   display: inline-block;
   padding: 0;
-  text-align: center;
+  background: pink;
 }
 
 nav li {
   display: inline-block;
   font-size: 2em;
-  float: left;
+  float: right;
   padding-right: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+}
 
+nav li:first-child{
+  padding-right: 0;
 }
 
 nav a {
@@ -47,7 +54,6 @@ nav a {
   content: "";
   clear: both;
 }*/
-
 
 
 /* Content Alignment Containers */
@@ -85,4 +91,8 @@ nav a {
 /* ========================================================================= */
 .nav-bar {
   background-color: green;
+}
+
+.header-logo {
+  background: white;
 }

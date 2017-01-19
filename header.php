@@ -19,21 +19,27 @@
 
     <!--  SITE HEADER -->
     <!-- ================================================================ -->
-    <header class="row">
-      <div class="header-content-container">
+    <header>
+      <div class="row">
+        <div class="header-content-container">
 
-        <nav>
-          <!-- Displays primary navigation -->
-          <?php
-            $defaults = array(
-              'container' => false,
-              'theme_location' => 'primary-menu', //tells wp where menu lives
-              // 'menu_class' => 'col-xs-12'
-            );
+          <div class="col-xs-6 header-logo">
+            logo here
+          </div>
 
-            wp_nav_menu( $defaults );
-          ?>
-        </nav>
+          <nav class="col-xs-6">
+            <!-- Displays primary navigation -->
+            <?php
+              $defaults = array(
+                'container' => false,
+                'theme_location' => 'primary-menu', //tells wp where menu lives
+                'menu_class' => 'nav'
+              );
 
+              wp_nav_menu( $defaults );
+            ?>
+          </nav>
+
+        </div>
       </div>
     </header>
