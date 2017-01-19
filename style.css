@@ -24,11 +24,7 @@
   background-color: green;
 }
 
-header {
-  background: orange;
-  position: fixed;
-  width: 100%;
-}
+
 
 
 /* STYLESHEET STARTS HERE */
@@ -41,6 +37,83 @@ body {
   margin: 0;
   min-width: 320px;
 }
+
+
+/* HEADER */
+header {
+  background: orange;
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  width: 50%;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 2em;
+  float: left;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+}
+
+/* needed? in em stylesheet
+
+  nav:after {
+  display: table;
+  content: "";
+  clear: both;
+}*/
+
+
+/* HEADER */
+/* ========================================================================= */
+
+/* SITE NAV */
+/*.nav-bar {
+  padding: 0;
+}*/
+
+/*.nav {
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+}*/
+
+/*.nav li {
+  display: inline-block;
+  width: 50%;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  float: left;
+  text-transform: uppercase;
+}
+
+.nav:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.nav a {
+  text-decoration: none;
+  display: block;
+}*/
+
+
+
 
 /* Content Alignment Containers */
 .header-content-container,
