@@ -1,7 +1,73 @@
-body {
-  background-color: pink;
+/*
+.fp-test {
+  background: pink;
+  color: red;
 }
 
-p {
-  color: red;
+
+.services-test {
+  background: purple;
+
+}
+
+.faq-test {
+  background: orange;
+
+}
+
+.contact-test {
+  background: blue;
+}*/
+
+
+.nav-bar {
+  background-color: green;
+}
+
+header {
+  background: orange;
+  position: fixed;
+  width: 100%;
+}
+
+
+/* STYLESHEET STARTS HERE */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+/* Content Alignment Containers */
+.header-content-container,
+.body-content-container {
+  max-width: 90%;
+  margin: auto;
+  background: grey;
+}
+
+.page-container {
+  width: 100%;
+  background-color: yellow;
+  min-height: 100%;
+}
+
+/* section height setups*/
+#fp-section1 {
+  height: 75vh;
+  background-color: red;
+}
+
+#fp-section2 {
+  height: 50vh;
+  background-color: blue;
+}
+
+#fp-section3 {
+  height: 60vh;
+  background-color: pink;
 }
