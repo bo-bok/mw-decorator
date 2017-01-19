@@ -28,7 +28,7 @@
             $defaults = array(
               'container' => false,
               'theme_location' => 'primary-menu', //tells wp where menu lives
-              // 'menu_class' => 'col-xs-12 nav-bar'
+              // 'menu_class' => 'col-xs-12'
             );
 
             wp_nav_menu( $defaults );
