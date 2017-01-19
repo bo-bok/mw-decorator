@@ -4,7 +4,7 @@
   */
 get_header(); ?>
 
-<div class="faq-test">
+<div class="page-container">
   <h1>FAQ page</h1>
 
   Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
