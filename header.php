@@ -20,26 +20,58 @@
     <!--  SITE HEADER -->
     <!-- ================================================================ -->
     <header>
-      <div class="row">
+      <!-- <div class="header-styles"> -->
         <div class="header-content-container">
+          <div class="header-outer-inner">
+            <div class="header-inner">
 
-          <div class="col-xs-6 header-logo">
-            logo here
+              <div class="header-logo">
+                a
+              </div>
+
+              <div class="header-info">
+                <div class="header-info-name">
+                  b
+                </div>
+
+                <div class="header-info-number">
+                  c
+                </div>
+
+              </div>
+
+
+              <nav>
+                <!-- Displays primary navigation -->
+                <?php
+                  $defaults = array(
+                    'container' => false,
+                    'theme_location' => 'primary-menu', //tells wp where menu lives
+                    'menu_class' => 'nav'
+                  );
+
+                  wp_nav_menu( $defaults );
+                ?>
+              </nav>
+
+
+
+
+              <!-- <nav>
+                <?php
+                  $defaults = array(
+                    'container' => false,
+                    'theme_location' => 'primary-menu', //tells wp where menu lives
+                    // 'menu_class' => 'nav'
+                  );
+
+                  wp_nav_menu( $defaults );
+                ?>
+              </nav> -->
+
+
+            </div>
           </div>
-
-          <nav class="col-xs-6">
-            <!-- Displays primary navigation -->
-            <?php
-              $defaults = array(
-                'container' => false,
-                'theme_location' => 'primary-menu', //tells wp where menu lives
-                'menu_class' => 'nav'
-              );
-
-              wp_nav_menu( $defaults );
-            ?>
-          </nav>
-
         </div>
-      </div>
+      <!-- </div> -->
     </header>

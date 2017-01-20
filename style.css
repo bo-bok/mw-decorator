@@ -19,41 +19,81 @@ header {
   background: orange;
   position: fixed;
   width: 100%;
+  min-height: 60px;
+  z-index: 999;
+}
+
+.header-outer-inner {
+  display: table;
+  width: 100%;
+
+}
+
+.header-inner {
+  display: table-row;
+  min-width: 100%;
+  background: yellow;
+}
+
+.header-logo,
+.header-info,
+nav {
+  display: table-cell;
+  background: purple;
+  vertical-align: middle;
 }
 
 .header-logo {
-  padding: 0;
+  width: 10%;
 }
 
+.header-info {
+  width: 25%;
+}
+
+  .header-info-name {
+    /*width: 25%;*/
+    height: 50%;
+  }
+
+  .header-info-number {
+    /*width: 25%;*/
+    height: 50%;
+  }
+
+nav {
+  width: 40%;
+}
+
+
+
+/* NAVIGATION */
+/* ========================================================================= */
 nav {
   display: inline-block;
-  padding: 0;
+  /*padding: 0;*/
   background: pink;
 }
 
 nav li {
   display: inline-block;
-  font-size: 2em;
+  font-size: 1em;
   float: right;
-  padding-right: 10px;
+  /*padding-right: 10px;*/
 }
 
-nav li:first-child{
+/*nav li:first-child{
   padding-right: 0;
-}
+}*/
 
 nav a {
   text-decoration: none;
   display: block;
 }
 
-/* needed? in em stylesheet
 
-  nav:after {
-  display: table;
-  content: "";
-  clear: both;
-}*/
+
+
 
 
 /* Content Alignment Containers */
@@ -63,6 +103,12 @@ nav a {
   max-width: 90%;
   margin: auto;
   background: grey;
+}
+
+.header-content-container {
+  padding: 10px 0 10px 0;
+  /*position: relative;*/
+  /*display: table;*/
 }
 
 .page-container {
@@ -93,6 +139,6 @@ nav a {
   background-color: green;
 }
 
-.header-logo {
+/*.header-logo {
   background: white;
-}
+}*/
