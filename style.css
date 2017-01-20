@@ -16,7 +16,7 @@ body {
 /* HEADER */
 /* ========================================================================= */
 header {
-  background: orange;
+  background: #fff;
   position: fixed;
   width: 100%;
   min-height: 60px;
@@ -32,14 +32,14 @@ header {
 .header-inner {
   display: table-row;
   min-width: 100%;
-  background: yellow;
+  /*background: yellow;*/
 }
 
 .header-logo,
 .header-info,
 nav {
   display: table-cell;
-  background: purple;
+  /*background: purple;*/
   vertical-align: middle;
 }
 
@@ -71,20 +71,20 @@ nav {
 nav {
   /*display: inline-block;*/
   padding: 0;
-  background: pink;
+  /*background: pink;*/
   width: 100%;
   text-align: right;
 }
 
 .nav-container {
   width: 100%;
-  background: rebeccapurple;
+  /*background: rebeccapurple;*/
 }
 
 .nav-container li {
   display: inline-block;
   font-size: 1.8em;
-  background: green;
+  /*background: green;*/
   height: 60px;
   width: 30%;
   display: table-cell;
@@ -100,7 +100,7 @@ nav {
 .nav-container a {
   text-decoration: none;
   display: block;
-  background: grey;
+  /*background: grey;*/
   /*width: 33.3%;*/
 }
 
@@ -124,7 +124,6 @@ nav {
 .body-content-container {
   max-width: 90%;
   margin: auto;
-  background: grey;
 }
 
 .header-content-container {
@@ -133,6 +132,9 @@ nav {
   /*display: table;*/
 }
 
+.body-content-container {
+  background: grey;
+}
 .page-container {
   width: 100%;
   background-color: yellow;
@@ -157,9 +159,6 @@ nav {
 
 /* DEV STYLES */
 /* ========================================================================= */
-.nav-bar {
-  background-color: green;
-}
 
 /*.header-logo {
   background: white;
