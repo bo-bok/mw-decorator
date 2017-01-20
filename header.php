@@ -30,11 +30,11 @@
 
               <div class="header-info">
                 <div class="header-info-name">
-                  b
+                  Michael Ware | Painter &amp; Decorator
                 </div>
 
                 <div class="header-info-number">
-                  c
+                   T: 01536 671969 | M: 07411 723237
                 </div>
 
               </div>
