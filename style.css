@@ -83,7 +83,7 @@ nav {
 
 .nav-container li {
   display: inline-block;
-  font-size: 1.8em;
+  font-size: 1.5em;
   /*background: green;*/
   height: 60px;
   width: 30%;
@@ -100,6 +100,7 @@ nav {
 .nav-container a {
   text-decoration: none;
   display: block;
+  text-transform: uppercase;
   /*background: grey;*/
   /*width: 33.3%;*/
 }
@@ -137,15 +138,22 @@ nav {
 }
 .page-container {
   width: 100%;
-  background-color: yellow;
+  /*background-color: yellow;*/
   min-height: 100%;
 }
 
 /* section height setups*/
 #fp-section1 {
-  height: 75vh;
-  background-color: red;
+  height: 85vh;
+  width: 100%;
+  /*background-color: red;*/
+  background: url('assets/mw_hp_background.jpg');
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 #fp-section2 {
   height: 50vh;
