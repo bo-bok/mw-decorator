@@ -20,7 +20,6 @@
     <!--  SITE HEADER -->
     <!-- ================================================================ -->
     <header>
-      <!-- <div class="header-styles"> -->
         <div class="header-content-container">
           <div class="header-outer-inner">
             <div class="header-inner">
@@ -42,36 +41,21 @@
 
 
               <nav>
-                <!-- Displays primary navigation -->
-                <?php
-                  $defaults = array(
-                    'container' => false,
-                    'theme_location' => 'primary-menu', //tells wp where menu lives
-                    'menu_class' => 'nav'
-                  );
+                <div class="nav-container">
+                  <!-- Displays primary navigation -->
+                  <?php
+                    $defaults = array(
+                      'container' => false,
+                      'theme_location' => 'primary-menu', //tells wp where menu lives
+                      // 'menu_class' => 'nav'
+                    );
 
-                  wp_nav_menu( $defaults );
-                ?>
+                    wp_nav_menu( $defaults );
+                  ?>
+                </div>
               </nav>
-
-
-
-
-              <!-- <nav>
-                <?php
-                  $defaults = array(
-                    'container' => false,
-                    'theme_location' => 'primary-menu', //tells wp where menu lives
-                    // 'menu_class' => 'nav'
-                  );
-
-                  wp_nav_menu( $defaults );
-                ?>
-              </nav> -->
-
 
             </div>
           </div>
         </div>
-      <!-- </div> -->
     </header>

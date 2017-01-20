@@ -61,39 +61,54 @@ nav {
     height: 50%;
   }
 
-nav {
-  width: 40%;
-}
 
 
 
 /* NAVIGATION */
 /* ========================================================================= */
 nav {
-  display: inline-block;
-  /*padding: 0;*/
+  /*display: inline-block;*/
+  padding: 0;
   background: pink;
+  width: 100%;
+  text-align: right;
 }
 
-nav li {
+.nav-container {
+  width: 100%;
+  background: rebeccapurple;
+}
+
+.nav-container li {
   display: inline-block;
   font-size: 1em;
-  float: right;
-  /*padding-right: 10px;*/
+  background: green;
+  height: 100px;
+  width: 30%;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
 }
 
-/*nav li:first-child{
-  padding-right: 0;
-}*/
-
-nav a {
+.nav-container a {
   text-decoration: none;
   display: block;
+  background: grey;
+  /*width: 33.3%;*/
 }
 
+/* flex solution */
+/*
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-container li {
+  /*align-items: space-between;
+  flex-grow: 1;
+}
 
-
-
+*/
 
 
 /* Content Alignment Containers */
