@@ -25,7 +25,11 @@
             <div class="header-inner">
 
               <div class="header-logo">
-                a
+
+                <a href="<?php echo esc_url(home_url("/"))?>">
+                  <img src="<?= get_template_directory_uri()?>/assets/header-logo-placeholder-45x45.png" alt="<?php echo esc_attr(get_bloginfo( 'name' )) ?>"/>
+                </a>
+              
               </div>
 
               <div class="header-info">
