@@ -41,6 +41,7 @@ nav {
   display: table-cell;
   /*background: purple;*/
   vertical-align: middle;
+  color: #595959;
 }
 
 .header-logo {
@@ -68,35 +69,26 @@ nav {
 
 /* NAVIGATION */
 /* ========================================================================= */
+/*
 nav {
-  /*display: inline-block;*/
   padding: 0;
-  /*background: pink;*/
   width: 100%;
   text-align: right;
 }
 
-/*@media(max-width: 950px) {
-  .nav-container {
-    display: none;
-  }
-}*/
-
 .nav-container {
   width: 100%;
-  /*background: rebeccapurple;*/
 }
 
 .nav-container li {
   display: inline-block;
   font-size: 1.5em;
-  /*background: green;*/
   height: 60px;
   width: 30%;
   display: table-cell;
   vertical-align: middle;
   width: 100%;
-  padding-right: 40px; /* temp: this solution breaks on small screen*/
+  padding-right: 40px;
 }
 
 .nav-container li:last-child{
@@ -107,10 +99,9 @@ nav {
   text-decoration: none;
   display: block;
   text-transform: uppercase;
-  /*background: grey;*/
-  /*width: 33.3%;*/
+  color: #595959;
 }
-
+*/
 /* flex solution */
 /*
 .nav-container {
@@ -124,6 +115,11 @@ nav {
 
 */
 
+/* @media(max-width: 950px) {
+  .nav-container {
+    display: none;
+  }
+}*/
 
 /* Content Alignment Containers */
 /* ========================================================================= */
