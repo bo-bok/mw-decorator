@@ -76,6 +76,12 @@ nav {
   text-align: right;
 }
 
+/*@media(max-width: 950px) {
+  .nav-container {
+    display: none;
+  }
+}*/
+
 .nav-container {
   width: 100%;
   /*background: rebeccapurple;*/
