@@ -52,12 +52,12 @@
                     </div>
 
                   <div class="nav-modal">
-                    
+
                     <div class="menu-sm-icon">
                       <img class="menu-sm-icon-close" src="<?= get_template_directory_uri()?>/assets/menu-icon-close.svg" alt="<?php echo esc_attr(get_bloginfo( 'name' )) ?>"/>
                     </div>
                     <!-- Displays primary navigation -->
-                    <!-- <?php
+                    <?php
                       $defaults = array(
                         'container' => false,
                         'theme_location' => 'primary-menu', //tells wp where menu lives
@@ -65,7 +65,7 @@
                       );
 
                       wp_nav_menu( $defaults );
-                    ?> -->
+                    ?>
                   </div>
                 </div>
               </nav>

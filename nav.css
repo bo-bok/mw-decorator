@@ -19,6 +19,19 @@
   width: 45px;
 }
 
+
+.nav-container li {
+  display: block;
+  font-size: 1.5em;
+}
+
+.nav-container a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #595959;
+}
+
+
 @media(min-width: 992px){
   nav {
     /*display: inline-block;*/
@@ -41,7 +54,7 @@
 
   .nav-container li {
     display: inline-block;
-    font-size: 1.5em;
+    /*font-size: 1.5em;*/
     /*background: green;*/
     height: 60px;
     width: 30%;
@@ -56,10 +69,10 @@
   }
 
   .nav-container a {
-    text-decoration: none;
+    /*text-decoration: none;*/
     display: block;
-    text-transform: uppercase;
-    color: #595959;
+    /*text-transform: uppercase;
+    color: #595959;*/
     /*background: grey;*/
     /*width: 33.3%;*/
   }
