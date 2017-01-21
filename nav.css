@@ -46,6 +46,11 @@
     display: none;
   }
 
+  .nav-modal {
+    visibility: hidden;
+ }
+
+
 
 
   /*@media(max-width: 950px) {

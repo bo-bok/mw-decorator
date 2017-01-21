@@ -77,7 +77,7 @@
                       $defaults = array(
                         'container' => false,
                         'theme_location' => 'primary-menu', //tells wp where menu lives
-                        // 'menu_class' => 'nav'
+                        // 'menu_class' => 'nav-small-screen'
                       );
 
                       wp_nav_menu( $defaults );
