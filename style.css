@@ -133,6 +133,9 @@ nav {
   max-width: 90%;
   margin: auto;
   padding: 10px 0 10px 0;
+  position: relative;
+  background: orange;
+  z-index: 2000;
 }
 
 .content-container {
