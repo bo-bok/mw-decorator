@@ -19,6 +19,7 @@ add_action( 'init', 'register_theme_menus');
 // this function loads the style (css) files
 function mw_theme_styles(){
   wp_enqueue_style( 'main_css', get_template_directory_uri() . '/style.css' );
+  wp_enqueue_style( 'nav_css', get_template_directory_uri() . '/nav.css' );
   wp_enqueue_style( 'normalize_css', get_template_directory_uri() . '/css/normalize.css' );
   wp_enqueue_style('responsive_grid_js', get_template_directory_uri() . '/css/responsive-grid.css');
 }
