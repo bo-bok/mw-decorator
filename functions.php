@@ -28,8 +28,9 @@ add_action( 'wp_enqueue_scripts', 'mw_theme_styles' );
 
 // this function loads the scripts (js)
 function mw_theme_js(){
-  wp_enqueue_script( 'main_js', get_template_directory_uri() . '/js/app.js', '', '', true);
-  wp_enqueue_script( 'testimonial_slideshow_js', get_template_directory_uri() . '/js/testimonial-slide.js', array('main_js'), '', true);
+  wp_enqueue_script( 'main_js', get_template_directory_uri() . '/js/app.js', '', '', true );
+  wp_enqueue_script( 'nav_js', get_template_directory_uri() . '/js/nav.js', '', '', true );
+  wp_enqueue_script( 'testimonial_slideshow_js', get_template_directory_uri() . '/js/testimonial-slide.js', array('main_js'), '', true );
 
   // note last three args:
   // wp_enqueue_script( 'main_js', get_template_directory_uri() . '/js/app.js', array('jquery'), '', true) ;
