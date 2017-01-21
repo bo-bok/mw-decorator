@@ -8,6 +8,7 @@
   right: 0;
   top: 0;
   position: absolute;
+  display: none;
 }
 
 .menu-sm-icon {
@@ -33,6 +34,12 @@
 
 
 @media(min-width: 992px){
+
+   /* hide small screen styles */
+  .menu-sm-icon {
+    display: none;
+  }
+
   nav {
     /*display: inline-block;*/
     padding: 0;
