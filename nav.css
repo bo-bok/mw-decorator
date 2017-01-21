@@ -33,6 +33,12 @@
 }
 
 
+
+.nav-large-screen {
+  background: grey;
+  display: none;
+}
+
 @media(min-width: 992px){
 
    /* hide small screen styles */
@@ -40,19 +46,27 @@
     display: none;
   }
 
-  nav {
-    /*display: inline-block;*/
-    padding: 0;
-    /*background: pink;*/
-    width: 100%;
-    text-align: right;
-  }
+
 
   /*@media(max-width: 950px) {
     .nav-container {
       display: none;
     }
   }*/
+
+  .nav-large-screen {
+    background: grey;
+    display: block;
+  }
+
+  nav {
+    /* move back to media query after dev*/
+    /*display: inline-block;*/
+    padding: 0;
+    background: green;
+    width: 100%;
+    text-align: right;
+  }
 
   .nav-container {
     width: 100%;
