@@ -1,6 +1,7 @@
 /* NAVIGATION */
 /* ========================================================================= */
 
+
 .nav-modal {
   height: 100vh;
   width: 40%;
@@ -9,6 +10,13 @@
   top: 0;
   position: absolute;
   display: none;
+  z-index: 5000;
+}
+
+.nav-modal-inner {
+  width: 75%;
+  margin: auto;
+  background: green;
 }
 
 .menu-sm-icon {
@@ -38,6 +46,7 @@
   background: grey;
   display: none;
 }
+
 
 @media(min-width: 992px){
 
