@@ -19,7 +19,7 @@ header {
   background: #fff;
   position: fixed;
   width: 100%;
-  min-height: 60px;
+  height: 65px;
   z-index: 999;
 }
 
@@ -89,7 +89,7 @@ nav {
   margin: auto;
   padding: 10px 0 10px 0;
   /*position: relative;*/
-  background: orange;
+  /*background: orange;*/
   /*z-index: 2000;*/
 }
 
@@ -109,7 +109,7 @@ nav {
 
 /* section height setups*/
 #fp-section1 {
-  height: 85vh;
+  height: 80vh;
   width: 100%;
   /*background-color: red;*/
   background: url('assets/mw_hp_background.jpg');
@@ -132,7 +132,7 @@ nav {
 
 
 #fp-section2 {
-  height: 50vh;
+  height: 40vh;
   width: 100%;
   background-color: blue;
 }
@@ -143,6 +143,21 @@ nav {
   background-color: pink;
 }
 
+
+
+/* FP Section 2 Styles */
+/* ========================================================================= */
+
+
+.content-background {
+  background: grey;
+  height: 100%;
+  text-align: center;
+}
+
+.a {
+  background: yellow;
+}
 /* DEV STYLES */
 /* ========================================================================= */
 

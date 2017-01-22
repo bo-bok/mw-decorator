@@ -17,7 +17,30 @@
 
       <div id="fp-section2">
         <div class="content-container">
-          Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          <div class="row content-background">
+
+            <!-- Section A -->
+            <div class="col-xs-12 a">
+              Michael Ware the Decorator
+            </div>
+
+            <!-- Section B -->
+            <div class="col-xs-12 col-md-4">
+              Section B
+            </div>
+
+            <!-- Section C -->
+            <div class="col-xs-12 col-md-4">
+              Section C
+            </div>
+
+            <!-- Section D -->
+            <div class="col-xs-12 col-md-4">
+              Section D
+            </div>
+
+
+          </div>
         </div>
       </div>
 

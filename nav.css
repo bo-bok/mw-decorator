@@ -43,7 +43,7 @@
 
 
 .nav-large-screen {
-  background: grey;
+  /*background: grey;*/
   display: none;
 }
 
@@ -69,7 +69,7 @@
   }*/
 
   .nav-large-screen {
-    background: grey;
+    /*background: grey;*/
     display: block;
   }
 
@@ -77,14 +77,14 @@
     /* move back to media query after dev*/
     /*display: inline-block;*/
     padding: 0;
-    background: green;
+    /*background: green;*/
     width: 100%;
     text-align: right;
   }
 
   .nav-container {
     width: 100%;
-    background: rebeccapurple;
+    /*background: rebeccapurple;*/
   }
 
   .nav-container li {
