@@ -41,6 +41,7 @@ nav {
   display: table-cell;
   /*background: purple;*/
   vertical-align: middle;
+  color: #595959;
 }
 
 .header-logo {
@@ -48,7 +49,7 @@ nav {
 }
 
 .header-info {
-  width: 40%;
+  width: 50%;
 }
 
   .header-info-name {
@@ -61,68 +62,18 @@ nav {
     /*width: 25%;*/
     height: 50%;
     padding-left: 10px;
-  }
-
-
-
-
-/* NAVIGATION */
-/* ========================================================================= */
-nav {
-  /*display: inline-block;*/
-  padding: 0;
-  /*background: pink;*/
-  width: 100%;
-  text-align: right;
-}
-
-/*@media(max-width: 950px) {
-  .nav-container {
     display: none;
   }
-}*/
 
-.nav-container {
-  width: 100%;
-  /*background: rebeccapurple;*/
-}
 
-.nav-container li {
-  display: inline-block;
-  font-size: 1.5em;
-  /*background: green;*/
-  height: 60px;
-  width: 30%;
-  display: table-cell;
-  vertical-align: middle;
-  width: 100%;
-  padding-right: 40px; /* temp: this solution breaks on small screen*/
+@media (min-width: 768px) {
+  .header-info-number {
+    display: block;
+  }
 }
-
-.nav-container li:last-child{
-    padding-right: 0;
-}
-
-.nav-container a {
-  text-decoration: none;
-  display: block;
-  text-transform: uppercase;
-  /*background: grey;*/
-  /*width: 33.3%;*/
-}
-
-/* flex solution */
-/*
-.nav-container {
-  display: flex;
-  justify-content: flex-end;
-}
-.nav-container li {
-  /*align-items: space-between;
-  flex-grow: 1;
-}
-
-*/
+/* NAVIGATION */
+/* ========================================================================= */
+/* nav.css
 
 
 /* Content Alignment Containers */
@@ -137,6 +88,9 @@ nav {
   max-width: 90%;
   margin: auto;
   padding: 10px 0 10px 0;
+  /*position: relative;*/
+  background: orange;
+  /*z-index: 2000;*/
 }
 
 .content-container {
@@ -147,6 +101,10 @@ nav {
 }
 
 
+.body-content-container {
+  background: green;
+  min-height: 100vh;
+}
 
 
 /* section height setups*/

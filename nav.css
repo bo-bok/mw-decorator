@@ -1,0 +1,127 @@
+/* NAVIGATION */
+/* ========================================================================= */
+
+
+.nav-modal {
+  height: 100vh;
+  width: 40%;
+  background: pink;
+  right: 0;
+  top: 0;
+  position: absolute;
+  display: none;
+  z-index: 5000;
+}
+
+.nav-modal-inner {
+  width: 75%;
+  margin: auto;
+  background: green;
+}
+
+.menu-sm-icon {
+  text-align: right;
+}
+.menu-sm-icon-open,
+.menu-sm-icon-close {
+  height: 45px;
+  width: 45px;
+}
+
+
+.nav-container li {
+  display: block;
+  font-size: 1.5em;
+}
+
+.nav-container a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #595959;
+}
+
+
+
+.nav-large-screen {
+  background: grey;
+  display: none;
+}
+
+
+@media(min-width: 992px){
+
+   /* hide small screen styles */
+  .menu-sm-icon {
+    display: none;
+  }
+
+  .nav-modal {
+    visibility: hidden;
+ }
+
+
+
+
+  /*@media(max-width: 950px) {
+    .nav-container {
+      display: none;
+    }
+  }*/
+
+  .nav-large-screen {
+    background: grey;
+    display: block;
+  }
+
+  nav {
+    /* move back to media query after dev*/
+    /*display: inline-block;*/
+    padding: 0;
+    background: green;
+    width: 100%;
+    text-align: right;
+  }
+
+  .nav-container {
+    width: 100%;
+    background: rebeccapurple;
+  }
+
+  .nav-container li {
+    display: inline-block;
+    /*font-size: 1.5em;*/
+    /*background: green;*/
+    height: 60px;
+    width: 30%;
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding-right: 40px; /* temp: this solution breaks on small screen*/
+  }
+
+  .nav-container li:last-child{
+      padding-right: 0;
+  }
+
+  .nav-container a {
+    /*text-decoration: none;*/
+    display: block;
+    /*text-transform: uppercase;
+    color: #595959;*/
+    /*background: grey;*/
+    /*width: 33.3%;*/
+  }
+}
+
+/* flex solution */
+/*
+.nav-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-container li {
+  /*align-items: space-between;
+  flex-grow: 1;
+}
+
+*/
