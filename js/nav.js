@@ -12,3 +12,7 @@ document.querySelector('.menu-sm-icon-open').addEventListener('click', function(
 document.querySelector('.menu-sm-icon-close').addEventListener('click', function() {
   document.querySelector('.nav-modal').style.display = "none";
 });
+
+// if (window.matchMedia("(min-width: 992px)") == true) {
+//   document.querySelector('.nav-modal').style.display = "none";
+// }
