@@ -150,6 +150,7 @@ nav {
 /* ========================================================================= */
 .a {
   background: yellow;
+  font-size: 2em;
 }
 
 .b {
@@ -158,6 +159,10 @@ nav {
 
 .c {
   background: orange;
+}
+
+.d {
+  background: teal;
 }
 .fp-s2-table {
   display: table;
@@ -181,6 +186,7 @@ nav {
   min-width: 100%;
   display: inline-block;
   /*background: grey;*/
+  padding: 10px 0 10px 0;
 }
 
 /* flex solution to centering content */

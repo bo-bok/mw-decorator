@@ -6,10 +6,6 @@
       <div id="fp-section1">
         <div class="fp-section1-opacity">
           <div class="content-container">
-              <div class="fp-section-1-text">
-              Front page
-              Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-            </div>
           </div>
         </div>
       </div>
@@ -36,6 +32,10 @@
                     Friendly
                 </div>
 
+                <div class="fp-s2-table-cell d">
+                    Donec ullamcorper nulla non metus auctor fringilla.
+                </div>
+
               </div>
             </div>
 
@@ -51,6 +51,10 @@
                     Reliable
                 </div>
 
+                <div class="fp-s2-table-cell d">
+                    Aenean lacinia bibendum nulla sed consectetur. Donec id elit non mi porta gravida at eget metus.
+                </div>
+
               </div>
             </div>
 
@@ -64,6 +68,10 @@
 
                 <div class="fp-s2-table-cell c">
                     Professional
+                </div>
+
+                <div class="fp-s2-table-cell d">
+                Vestibulum id ligula porta felis euismod semper.
                 </div>
 
               </div>
