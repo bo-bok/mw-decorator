@@ -17,7 +17,7 @@
 
       <div id="fp-section2">
         <div class="content-container">
-          <div class="row content-background">
+          <div class="row fp-s2-table">
 
             <!-- Section A -->
             <div class="col-xs-12 a">
@@ -26,17 +26,39 @@
 
             <!-- Section B -->
             <div class="col-xs-12 col-md-4">
-              Section B
+              <div class="fp-s2-table-row">
+                <div class="fp-s2-table-cell b">
+                  <div class="center-content">
+                    IMG B
+                  </div>
+                </div>
+              </div>
             </div>
 
             <!-- Section C -->
             <div class="col-xs-12 col-md-4">
-              Section C
+              <div class="fp-s2-table-row">
+
+                <div class="fp-s2-table-cell b">
+                    IMG C
+                </div>
+
+                <!-- <div class="fp-s2-table-cell">
+                    Friendly
+                </div> -->
+
+              </div>
             </div>
 
             <!-- Section D -->
             <div class="col-xs-12 col-md-4">
-              Section D
+              <div class="fp-s2-table-row">
+
+                <div class="fp-s2-table-cell b">
+                    IMG D
+                </div>
+
+              </div>
             </div>
 
 
