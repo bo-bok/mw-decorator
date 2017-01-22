@@ -27,11 +27,15 @@
             <!-- Section B -->
             <div class="col-xs-12 col-md-4">
               <div class="fp-s2-table-row">
+
                 <div class="fp-s2-table-cell b">
-                  <div class="center-content">
                     IMG B
-                  </div>
                 </div>
+
+                <div class="fp-s2-table-cell c">
+                    Friendly
+                </div>
+
               </div>
             </div>
 
@@ -43,9 +47,9 @@
                     IMG C
                 </div>
 
-                <!-- <div class="fp-s2-table-cell">
-                    Friendly
-                </div> -->
+                <div class="fp-s2-table-cell c">
+                    Reliable
+                </div>
 
               </div>
             </div>
@@ -56,6 +60,10 @@
 
                 <div class="fp-s2-table-cell b">
                     IMG D
+                </div>
+
+                <div class="fp-s2-table-cell c">
+                    Professional
                 </div>
 
               </div>

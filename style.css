@@ -156,6 +156,9 @@ nav {
   background: pink;
 }
 
+.c {
+  background: orange;
+}
 .fp-s2-table {
   display: table;
   width: 100%;
