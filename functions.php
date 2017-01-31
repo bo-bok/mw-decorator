@@ -32,6 +32,7 @@ function mw_theme_js(){
   wp_enqueue_script( 'main_js', get_template_directory_uri() . '/js/app.js', '', '', true );
   wp_enqueue_script( 'nav_js', get_template_directory_uri() . '/js/nav.js', '', '', true );
   wp_enqueue_script( 'testimonial_slideshow_js', get_template_directory_uri() . '/js/testimonial-slide.js', array('main_js'), '', true );
+  wp_enqueue_script( 'faq-accordion_js', get_template_directory_uri() . '/js/faq-accordion.js', array('main_js'), '', true );
 
   // note last three args:
   // wp_enqueue_script( 'main_js', get_template_directory_uri() . '/js/app.js', array('jquery'), '', true) ;
