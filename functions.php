@@ -23,6 +23,7 @@ function mw_theme_styles(){
   wp_enqueue_style( 'faq-accordion_css', get_template_directory_uri() . '/css/faq-accordion.css' );
   wp_enqueue_style( 'normalize_css', get_template_directory_uri() . '/css/normalize.css' );
   wp_enqueue_style('responsive_grid_js', get_template_directory_uri() . '/css/responsive-grid.css');
+  wp_enqueue_style('testimonial_slide', get_template_directory_uri() . '/css/testimonial-slide.css');
 }
 add_action( 'wp_enqueue_scripts', 'mw_theme_styles' );
 
