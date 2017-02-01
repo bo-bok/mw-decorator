@@ -4,12 +4,21 @@
   margin-top: 100px;
 }
 
+.accordion {
+  width: 100%;
+}
+
+@media(min-width: 992px){
+  .accordion {
+    width: 60%;
+  }
+}
+
 .accordion-section {
   padding: 10px 0 10px 0;
 }
 
 .faq-question {
-
 }
 
 .faq-answer {
@@ -28,15 +37,23 @@
   visibility: hidden;
 }
 
+/* styling of ANSWER when accordion is expanded */
 .accordion.js > .expanded > *:not(.faq-question) {
   max-height: 10em;
   opacity: 1;
   visibility: visible;
+  padding: 10px;
+  border-bottom: 2px solid #7bc9b7;
+
 }
 
+/* styling of what user initially sees on page for Question */
 .accordion.js > * > .faq-question {
   cursor: pointer;
   visibility: visible;
+  background-color: #7bc9b7;
+  /*width: 100%;*/
+  padding: 10px;
 }
 
 .accordion.js > * > *:not(.faq-question) {
