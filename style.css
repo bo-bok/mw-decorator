@@ -7,10 +7,12 @@ html, body {
 body {
   margin: 0;
   min-width: 320px;
+
 }
 
 * {
   box-sizing: border-box;
+  color: #595959;
 }
 
 /* HEADER */
