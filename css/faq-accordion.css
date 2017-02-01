@@ -25,6 +25,11 @@
 
 }
 
+.accordion.fade-up > * > *:not(.faq-question){
+   /*effects on close here
+  background: pink;
+  color: rgba(89, 89, 89, 0.50);*/
+}
 .accordion.js > * {
   overflow: hidden;
 }
