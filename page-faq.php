@@ -105,14 +105,6 @@ get_header(); ?>
           </div>
         </div>
 
-        <!-- 10 -->
-        <div class="accordion-section">
-          <div class="faq-question">
-          </div>
-          <div class="faq-answer">
-          </div>
-        </div>
-
       </div>
 
     </div>
