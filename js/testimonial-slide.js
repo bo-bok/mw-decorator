@@ -22,4 +22,4 @@ function newQuote(){
 window.addEventListener('load', newQuote);
 // call quote function on load
 setInterval(newQuote, 30000);
-// show new quote every 60 seconds
+// show new quote every 30 seconds
