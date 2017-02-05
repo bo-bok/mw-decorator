@@ -251,8 +251,7 @@ nav {
 
 }
 
-
-/* SERVICES PAGE */
+/* UNIVERSAL PAGE STYLES */
 /* ========================================================================= */
 .page-banner-img {
   height: 40vh;
@@ -263,6 +262,17 @@ nav {
   background-size: cover;
   background-position: right top;*/
 }
+
+.page-header-text {
+  font-size: 4em;
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+
+
+/* SERVICES PAGE */
+/* ========================================================================= */
+
 
 /* FAQ PAGE */
 /* ========================================================================= */

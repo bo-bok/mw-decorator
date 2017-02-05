@@ -8,8 +8,13 @@ get_header(); ?>
 
   <div class="page-banner-img"></div>
 
+
   <div class="body-content-container">
     <div class="content-container">
+
+      <div class="page-header-text">
+        frequently asked questions
+      </div>
 
       <div class="accordion">
 

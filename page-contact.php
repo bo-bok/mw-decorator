@@ -10,7 +10,11 @@ get_header(); ?>
 
   <div class="body-content-container">
     <div class="content-container">
-      contact page
+      
+      <div class="page-header-text">
+        contact us
+      </div>
+
 
       Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Donec ullamcorper nulla non metus auctor fringilla. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
