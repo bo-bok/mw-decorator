@@ -150,6 +150,7 @@ nav {
   height: 60vh;
   width: 100%;
   background-color: pink;
+  text-align: center;
 }
 
 
@@ -198,7 +199,29 @@ nav {
 }
 
 /* FP section 3 styles */
+.fp-section-3-header {
+  font-size: 2em;
+  /*text-align: center;*/
+}
 
+.fp-section-3-blurb {
+  /*text-align: center;*/
+}
+
+.fp-section-3-text {
+  width: 50%;
+  border: 1px solid red;
+}
+
+.fp-section-3-img {
+  width: 50%;
+  border: 1px solid red;
+}
+
+.fp-section-3-test-slide {
+  background: yellow;
+
+}
 
 
 /* DEV STYLES */
