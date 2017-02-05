@@ -84,7 +84,29 @@
 
       <div id="fp-section3">
         <div class="content-container">
-          Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna.
+
+          <div class="col-xs-12 fp-section-3-header">
+            About
+          </div>
+
+          <div class="col-xs-12 fp-section-3-blurb">
+            Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna.
+          </div>
+
+          <div class="col-xs-12 col-md-6 fp-section-3-text">
+            a
+          </div>
+
+          <div class="col-xs-12 col-md-6 fp-section-3-img">
+            b
+          </div>
+
+          <div class="col-xs-12 fp-section-3-test-slide">
+            <div id="testimonial-slide">
+              <!-- quotes will display here -->
+            </div>
+          </div>
+
         </div>
       </div>
 
