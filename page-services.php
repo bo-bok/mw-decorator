@@ -6,11 +6,13 @@ get_header(); ?>
 
 <div class="page-container">
   <div class="body-content-container">
+    <div class="content-container">
 
-<div id="testimonial-slide">
-  <!-- quotes will display here -->
-</div>
+      <div id="testimonial-slide">
+        <!-- quotes will display here -->
+      </div>
 
+    </div>
   </div>
 </div>
 
