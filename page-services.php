@@ -5,6 +5,9 @@
 get_header(); ?>
 
 <div class="page-container">
+
+  <div class="page-banner-img"></div>
+
   <div class="body-content-container">
     <div class="content-container">
 

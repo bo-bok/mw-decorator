@@ -94,7 +94,7 @@ nav {
 }
 
 .header-content-container {
-  max-width: 90%;
+  max-width: 80%;
   margin: auto;
   padding: 10px 0 10px 0;
   /*position: relative;*/
@@ -104,7 +104,7 @@ nav {
 
 .content-container {
   /*background: pink;*/
-  max-width: 90%;
+  max-width: 80%;
   margin: auto;
   height: 100%;
 }
@@ -147,7 +147,7 @@ nav {
 }
 
 #fp-section3 {
-  height: 60vh;
+  height: 80vh;
   width: 100%;
   background-color: pink;
   text-align: center;
@@ -251,6 +251,25 @@ nav {
 
 }
 
+
+/* SERVICES PAGE */
+/* ========================================================================= */
+.page-banner-img {
+  height: 40vh;
+  background: url('assets/mw_hp_background.jpg');
+
+  /*background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;*/
+}
+
+/* FAQ PAGE */
+/* ========================================================================= */
+
+
+/* CONTACT PAGE */
+/* ========================================================================= */
 
 /* DEV STYLES */
 /* ========================================================================= */
