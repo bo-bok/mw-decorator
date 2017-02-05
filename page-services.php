@@ -11,8 +11,6 @@ get_header(); ?>
   <!-- quotes will display here -->
 </div>
 
-<div class="quote-button">New quote</div>
-
   </div>
 </div>
 
