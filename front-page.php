@@ -71,7 +71,7 @@
                 </div>
 
                 <div class="fp-s2-table-cell d">
-                Vestibulum id ligula porta felis euismod semper.
+                  Vestibulum id ligula porta felis euismod semper.
                 </div>
 
               </div>
@@ -84,6 +84,7 @@
 
       <div id="fp-section3">
         <div class="content-container">
+        <div class ="row">
 
           <div class="col-xs-12 fp-section-3-header">
             About
@@ -144,6 +145,7 @@
             </div>
           </div>
 
+        </div>
         </div>
       </div>
 
