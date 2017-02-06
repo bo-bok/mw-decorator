@@ -25,7 +25,7 @@
               <div class="fp-s2-table-row">
 
                 <div class="fp-s2-table-cell b">
-                    IMG B
+                  <img class="hp-icon" src="<?= get_template_directory_uri()?>/assets/hp-graphics/friendly.svg" />
                 </div>
 
                 <div class="fp-s2-table-cell c">
@@ -44,7 +44,7 @@
               <div class="fp-s2-table-row">
 
                 <div class="fp-s2-table-cell b">
-                    IMG C
+                  <img class="hp-icon" src="<?= get_template_directory_uri()?>/assets/hp-graphics/reliable.svg" />
                 </div>
 
                 <div class="fp-s2-table-cell c">
@@ -63,7 +63,7 @@
               <div class="fp-s2-table-row">
 
                 <div class="fp-s2-table-cell b">
-                    IMG D
+                  <img class="hp-icon" src="<?= get_template_directory_uri()?>/assets/hp-graphics/professional.svg" />
                 </div>
 
                 <div class="fp-s2-table-cell c">
@@ -122,7 +122,7 @@
                 -
               </div>
               <div class="fp-section-3-text-point">
-                We also apply a 10% discount to our quotation for 
+                We also apply a 10% discount to our quotation for
               </div>
             </div>
 
