@@ -208,70 +208,91 @@ nav {
   /*padding: 10px 0 10px 0;*/
 }
 
-
-
 .hp-icon {
   height: 150px;
 }
 
 
-
-
-/* FP section 3 styles */
+/* FP section 3 styles - ABOUT */
 /* ========================================================================= */
 
-.fp-section-3-header {
+/*header */
+.about-header {
   font-size: 3em;
-  /*text-align: center;*/
 }
 
-.fp-section-3-blurb {
-  /*text-align: center;*/
+/* blurb */
+.about-blurb {
 }
 
-.fp-section-3-img {
-  width: 50%;
-  border: 1px solid red;
-}
-
-.fp-section-3-text {
-  width: 50%;
-  border: 1px solid red;
-  text-align: left;
+/* section content container */
+.about-content-container {
   display: table;
+  width: 100%;
 }
 
-  .fp-section-3-text-row {
-    display: table-row;
-    background: orange;
+.about-content-container-inner {
+  display: table-row;
+}
+
+.about-img-container,
+.about-text-container {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  float: left;
+  clear: both;
+}
+
+@media(min-width: 992px) {
+  .about-img-container,
+  .about-text-container {
+    width: 50%;
+    float: none;
+    clear: none;
   }
+}
 
-  .fp-section-3-text-bullet,
-  .fp-section-3-text-point {
-    display: table-cell;
-    vertical-align: middle;
-    border: 1px solid black;
-    padding: 10px;
+/* About image */
+.about-img-container {
+  background: red;
+}
+.about-img {
+  width: 100%;
+}
 
-  }
+/* About text */
+.about-text {
+  background: pink;
+}
 
-  .fp-section-3-text-bullet {
-    width: 10%;
-    text-align: center;
-  }
-  .fp-section-3-text-point{
-    width: 90%;
-    text-align: left;
-  }
+.about-text-row {
+  display: table-row;
+  background: orange;
+}
 
+.about-text-bullet,
+.about-text-copy {
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid black;
+  padding: 10px;
+}
 
+.about-text-bullet {
+  width: 10%;
+  text-align: center;
+}
+.about-text-copy{
+  width: 90%;
+  text-align: left;
+}
 
-
-
+/* About section slideshow */
 .fp-section-3-test-slide {
   background: yellow;
-
 }
+
 
 /* UNIVERSAL PAGE STYLES */
 /* ========================================================================= */

@@ -84,73 +84,61 @@
 
       <div id="fp-section3">
         <div class="content-container">
-        <div class="row">
+        <div class ="row">
 
-          <!-- header -->
-          <div class="col-xs-12 about-header">
+          <div class="col-xs-12 fp-section-3-header">
             About
           </div>
 
-          <!-- blurb -->
-          <div class="col-xs-12 about-blurb">
+          <div class="col-xs-12 fp-section-3-blurb">
             Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna.
           </div>
 
-          <!-- content -->
-          <div class="about-content-container">
-            <div class="about-content-container-inner">
-
-              <!-- about img -->
-              <div class="about-img-container">
-                  <img class="about-img" src="<?= get_template_directory_uri()?>/assets/placeholders/wall_illustration.jpg" />
-              </div>
-
-              <!-- about text -->
-              <div class="about-text-container">
-
-                  <div class="about-text-row">
-                    <div class="about-text-bullet">
-                      <img class="" src="<?= get_template_directory_uri()?>/assets/hp-graphics/bullet-pen.png" />
-                    </div>
-                    <div class="about-text-copy">
-                      Experienced in all aspects of interior and exterior decorating, we pride ourselves on being friendly, reliable and professional
-                    </div>
-                  </div>
-
-                  <div class="about-text-row">
-                    <div class="about-text-bullet">
-                      <img class="" src="<?= get_template_directory_uri()?>/assets/hp-graphics/bullet-pen.png" />
-                    </div>
-                    <div class="about-text-copy">
-                      We offer free written competitive quotations with no obligation and are fully insured and DBS checked for your peace of mind
-                    </div>
-                  </div>
-
-                  <div class="about-text-row">
-                    <div class="about-text-bullet">
-                      <img class="" src="<?= get_template_directory_uri()?>/assets/hp-graphics/bullet-pen.png" />
-                    </div>
-                    <div class="about-text-copy">
-                      We also apply a 10% discount to our quotation for O.A.Ps
-                    </div>
-                  </div>
-
-                  <div class="about-text-row">
-                    <div class="about-text-bullet">
-                      <img class="" src="<?= get_template_directory_uri()?>/assets/hp-graphics/bullet-pen.png" />
-                    </div>
-                    <div class="about-text-copy">
-                      Happy to take on all sizes of projects from a whole house to a single wall
-                    </div>
-                  </div>
-
-              </div>
-
-            </div>
+          <div class="col-xs-12 col-md-6 fp-section-3-img">
+            <img class="hp-icon" src="<?= get_template_directory_uri()?>/assets/placeholders/wall_illustration.jpg" />
           </div>
 
+          <div class="col-xs-12 col-md-6 fp-section-3-text">
 
-          <!-- testimonial slideshow -->
+            <div class="fp-section-3-text-row">
+              <div class="fp-section-3-text-bullet">
+                <img class="" src="<?= get_template_directory_uri()?>/assets/hp-graphics/bullet-pen.png" />
+              </div>
+              <div class="fp-section-3-text-point">
+                Experienced in all aspects of interior and exterior decorating, we pride ourselves on being friendly, reliable and professional
+              </div>
+            </div>
+
+            <div class="fp-section-3-text-row">
+              <div class="fp-section-3-text-bullet">
+                <img class="" src="<?= get_template_directory_uri()?>/assets/hp-graphics/bullet-pen.png" />
+              </div>
+              <div class="fp-section-3-text-point">
+                We offer free written competitive quotations with no obligation and are fully insured and DBS checked for your peace of mind
+              </div>
+            </div>
+
+            <div class="fp-section-3-text-row">
+              <div class="fp-section-3-text-bullet">
+                <img class="" src="<?= get_template_directory_uri()?>/assets/hp-graphics/bullet-pen.png" />
+              </div>
+              <div class="fp-section-3-text-point">
+                We also apply a 10% discount to our quotation for O.A.Ps
+              </div>
+            </div>
+
+            <div class="fp-section-3-text-row">
+              <div class="fp-section-3-text-bullet">
+                <img class="" src="<?= get_template_directory_uri()?>/assets/hp-graphics/bullet-pen.png" />
+              </div>
+              <div class="fp-section-3-text-point">
+                Happy to take on all sizes of projects from a whole house to a single wall
+              </div>
+            </div>
+
+
+          </div>
+
           <div class="col-xs-12 fp-section-3-test-slide">
             <div id="testimonial-slide">
               <!-- quotes will display here -->
