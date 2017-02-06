@@ -102,7 +102,7 @@
 
             <div class="fp-section-3-text-row">
               <div class="fp-section-3-text-bullet">
-                -
+                <img class="" src="<?= get_template_directory_uri()?>/assets/hp-graphics/bullet-pen.png" />
               </div>
               <div class="fp-section-3-text-point">
                 Experienced in all aspects of interior and exterior decorating, we pride ourselves on being friendly, reliable and professional
@@ -111,7 +111,7 @@
 
             <div class="fp-section-3-text-row">
               <div class="fp-section-3-text-bullet">
-                -
+                <img class="" src="<?= get_template_directory_uri()?>/assets/hp-graphics/bullet-pen.png" />
               </div>
               <div class="fp-section-3-text-point">
                 We offer free written competitive quotations with no obligation and are fully insured and DBS checked for your peace of mind
@@ -120,16 +120,16 @@
 
             <div class="fp-section-3-text-row">
               <div class="fp-section-3-text-bullet">
-                -
+                <img class="" src="<?= get_template_directory_uri()?>/assets/hp-graphics/bullet-pen.png" />
               </div>
               <div class="fp-section-3-text-point">
-                We also apply a 10% discount to our quotation for
+                We also apply a 10% discount to our quotation for O.A.Ps
               </div>
             </div>
 
             <div class="fp-section-3-text-row">
               <div class="fp-section-3-text-bullet">
-                -
+                <img class="" src="<?= get_template_directory_uri()?>/assets/hp-graphics/bullet-pen.png" />
               </div>
               <div class="fp-section-3-text-point">
                 Happy to take on all sizes of projects from a whole house to a single wall
