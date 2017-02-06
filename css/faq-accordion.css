@@ -8,11 +8,17 @@
   width: 100%;
 }
 
-@media(min-width: 992px){
+@media(min-width: 1100px){
+  .accordion {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+/*@media(min-width: 992px){
   .accordion {
     width: 60%;
   }
-}
+}*/
 
 .accordion-section {
   padding: 10px 0 10px 0;
