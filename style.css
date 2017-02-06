@@ -24,6 +24,7 @@ header {
   height: 65px;
   z-index: 999;
   top: 0;
+  border-bottom: 1px dotted grey;
 }
 
 .header-outer-inner {
@@ -78,6 +79,12 @@ nav {
 /* ========================================================================= */
 /* nav.css
 
+/* FOOTER */
+/* ========================================================================= */
+.footer {
+  min-height: 60px;
+  background: green;
+}
 
 /* Content Alignment Containers */
 /* ========================================================================= */
@@ -88,7 +95,7 @@ nav {
 }
 
 .header-content-container {
-  max-width: 90%;
+  max-width: 80%;
   margin: auto;
   padding: 10px 0 10px 0;
   /*position: relative;*/
@@ -98,7 +105,7 @@ nav {
 
 .content-container {
   /*background: pink;*/
-  max-width: 90%;
+  max-width: 80%;
   margin: auto;
   height: 100%;
 }
@@ -137,13 +144,17 @@ nav {
 #fp-section2 {
   min-height: 40vh;
   width: 100%;
-  background-color: blue;
+  /*background-color: blue;*/
+  padding: 20px 0 20px 0;
 }
 
 #fp-section3 {
-  height: 60vh;
+  min-height: 80vh;
   width: 100%;
-  background-color: pink;
+  /*background-color: pink;*/
+  border-top: solid 1px grey;
+  text-align: center;
+  padding: 20px 0 20px 0;
 }
 
 
@@ -151,32 +162,39 @@ nav {
 /* FP Section 2 Styles */
 /* ========================================================================= */
 .a {
-  background: yellow;
-  font-size: 2em;
+  /*background: yellow;*/
+  font-size: 3em;
 }
 
 .b {
-  background: pink;
+  /*background: pink;*/
 }
 
 .c {
-  background: orange;
+  /*background: orange;*/
+  font-size: 2em;
+  padding: 10px 0 10px 0;
+
+
 }
 
 .d {
-  background: teal;
+  /*background: teal;*/
+  padding: 10px 0 10px 0;
+
 }
 .fp-s2-table {
   display: table;
   width: 100%;
   text-align: center;
-  background: green;
+  /*background: green;*/
   min-height: 40vh;
 }
+
 .fp-s2-table-row {
   display: table-row;
   text-align: center;
-  background: purple;
+  /*background: purple;*/
   min-height: 200px;
   width: 100%;
   display: block;
@@ -188,16 +206,143 @@ nav {
   min-width: 100%;
   display: inline-block;
   /*background: grey;*/
-  padding: 10px 0 10px 0;
+  /*padding: 10px 0 10px 0;*/
 }
 
-/* flex solution to centering content */
-/*.fp-s2-content {
-  display: flex;
+.hp-icon {
+  height: 150px;
+}
+
+
+/* FP section 3 styles - ABOUT */
+/* ========================================================================= */
+
+/*header */
+.about-header {
+  font-size: 3em;
+}
+
+/* blurb */
+.about-blurb {
+}
+
+/* section content container */
+.about-content-container {
+  display: table;
+  width: 100%;
   height: 100%;
-  justify-content: center;
-  align-items: center;
-}*/
+  margin-bottom: 20px;
+}
+
+.about-content-container-inner {
+  display: table-row;
+  height: 100%;
+  background: pink;
+}
+
+.about-img-container,
+.about-text-container {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  float: left;
+  clear: both;
+}
+
+@media(min-width: 992px) {
+  .about-img-container,
+  .about-text-container {
+    width: 50%;
+    float: none;
+    clear: none;
+    height: 100%;
+  }
+}
+
+.about-text-table {
+  display: table;
+  background: rebeccapurple;
+  height: 100%;
+}
+
+/* About image */
+.about-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* About text */
+.about-text-row {
+  display: table-row;
+  background: orange;
+  height: 25%;
+}
+
+.about-text-bullet,
+.about-text-copy {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.about-text-bullet {
+  width: 10%;
+  text-align: center;
+  padding-left: 10px;
+}
+
+@media(min-width: 992px) {
+  .about-text-bullet {
+    padding-left: 40px;
+  }
+}
+
+.about-text-copy {
+  width: 90%;
+  text-align: left;
+}
+
+/* About section slideshow */
+.fp-section-3-test-slide {
+  background: yellow;
+}
+
+
+/* UNIVERSAL PAGE STYLES */
+/* ========================================================================= */
+.page-banner-img {
+  height: 40vh;
+  background: url('assets/mw_hp_background.jpg');
+
+  /*background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right top;*/
+}
+
+.page-header-text {
+  font-size: 4em;
+  text-align: center;
+  padding: 30px 0 10px 0;
+}
+
+.page-blurb {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.1em
+}
+
+/* SERVICES PAGE */
+/* ========================================================================= */
+
+
+/* FAQ PAGE */
+/* ========================================================================= */
+
+
+/* CONTACT PAGE */
+/* ========================================================================= */
 
 /* DEV STYLES */
 /* ========================================================================= */

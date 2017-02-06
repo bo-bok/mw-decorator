@@ -5,8 +5,20 @@
 get_header(); ?>
 
 <div class="page-container">
+
+  <div class="page-banner-img"></div>
+
+
   <div class="body-content-container">
     <div class="content-container">
+
+      <div class="page-header-text">
+        FAQ
+      </div>
+
+      <div class="page-blurb">
+        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui.
+      </div>
 
       <div class="accordion">
 

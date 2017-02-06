@@ -5,6 +5,12 @@
 <!-- ================================================================ -->
 
 <footer>
+  <div class="footer">
+    <div class="content-container">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      
+    </div>
+  </div>
 </footer>
 
   <?php wp_footer(); ?>

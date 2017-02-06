@@ -5,14 +5,25 @@
 get_header(); ?>
 
 <div class="page-container">
+
+  <div class="page-banner-img"></div>
+
   <div class="body-content-container">
+    <div class="content-container">
 
-<div id="testimonial-slide">
-  <!-- quotes will display here -->
-</div>
+      <div class="page-header-text">
+        services
+      </div>
 
-<div class="quote-button">New quote</div>
+      <div class="page-blurb">
+        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui.
+      </div>
 
+      <div id="testimonial-slide">
+        <!-- quotes will display here -->
+      </div>
+
+    </div>
   </div>
 </div>
 
