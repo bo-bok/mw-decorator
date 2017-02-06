@@ -161,19 +161,25 @@ nav {
 /* ========================================================================= */
 .a {
   /*background: yellow;*/
-  font-size: 2em;
+  font-size: 3em;
 }
 
 .b {
-  background: pink;
+  /*background: pink;*/
 }
 
 .c {
-  background: orange;
+  /*background: orange;*/
+  font-size: 2em;
+  padding: 10px 0 10px 0;
+
+
 }
 
 .d {
-  background: teal;
+  /*background: teal;*/
+  padding: 10px 0 10px 0;
+
 }
 .fp-s2-table {
   display: table;
@@ -181,7 +187,9 @@ nav {
   text-align: center;
   /*background: green;*/
   min-height: 40vh;
+  margin: 20px 0 20px 0;
 }
+
 .fp-s2-table-row {
   display: table-row;
   text-align: center;
@@ -200,6 +208,8 @@ nav {
   /*padding: 10px 0 10px 0;*/
 }
 
+
+
 .hp-icon {
   height: 150px;
 }
@@ -211,7 +221,7 @@ nav {
 /* ========================================================================= */
 
 .fp-section-3-header {
-  font-size: 2em;
+  font-size: 3em;
   /*text-align: center;*/
 }
 
