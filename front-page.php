@@ -107,6 +107,7 @@
 
               <!-- about text -->
               <div class="about-text-container">
+                <div class="about-text-table">
 
                   <div class="about-text-row">
                     <div class="about-text-bullet">
@@ -144,6 +145,7 @@
                     </div>
                   </div>
 
+                </div>
               </div>
 
             </div>
