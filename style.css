@@ -145,6 +145,7 @@ nav {
   min-height: 40vh;
   width: 100%;
   /*background-color: blue;*/
+  padding: 20px 0 20px 0;
 }
 
 #fp-section3 {
@@ -153,6 +154,7 @@ nav {
   /*background-color: pink;*/
   border-top: solid 1px grey;
   text-align: center;
+  padding: 20px 0 20px 0;
 }
 
 
@@ -187,7 +189,6 @@ nav {
   text-align: center;
   /*background: green;*/
   min-height: 40vh;
-  margin: 20px 0 20px 0;
 }
 
 .fp-s2-table-row {
