@@ -13,7 +13,11 @@ get_header(); ?>
     <div class="content-container">
 
       <div class="page-header-text">
-        frequently asked questions
+        FAQ
+      </div>
+
+      <div class="page-blurb">
+        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui.
       </div>
 
       <div class="accordion">

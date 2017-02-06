@@ -14,7 +14,11 @@ get_header(); ?>
       <div class="page-header-text">
         services
       </div>
-      
+
+      <div class="page-blurb">
+        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui.
+      </div>
+
       <div id="testimonial-slide">
         <!-- quotes will display here -->
       </div>
