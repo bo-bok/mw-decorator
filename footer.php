@@ -7,8 +7,11 @@
 <footer>
   <div class="footer">
     <div class="content-container">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      
+
+      <div class="footer-copyright">
+      Copyright Michael Ware <?php echo date('Y'); ?>.
+      </div>
+
     </div>
   </div>
 </footer>

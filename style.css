@@ -83,7 +83,13 @@ nav {
 /* ========================================================================= */
 .footer {
   min-height: 60px;
-  background: green;
+  border-top: grey solid 1px;
+  display: flex;
+}
+
+.footer-copyright {
+  text-align: center;
+  justify-content: center;
 }
 
 /* Content Alignment Containers */
