@@ -405,40 +405,44 @@ nav {
 /* CONTACT PAGE */
 /* ========================================================================= */
 
-/*.daisy {
-  color: blue;
-  font-size: 2em;
-}
+/* contact form */
 
-#inputfield {
-  border: solid 1px green;
-  border-radius: 50px;
-font-size: 1em;
-}*/
-
-.wpcf7 {
+.contact-form-container {
   /*background: yellow;*/
+  margin: 50px 0px 50px 0px;
+  background: #fff;
 }
 
 .wpcf7 p {
   margin-top: 30px;
+  font-family: sans-serif;
+  line-height: 1.15;
 }
 
 .wpcf7 label {
-  color: red;
+  color: #7bc9b7;
   padding: 10px;
   margin-top: 40px;
+  margin-bottom: 0px;
+  background: #fff;
 }
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
 .wpcf7 textarea {
-  background: red;
-  border: 1px solid #7bc9b7;
+  /*background: red;*/
+  border: 2px solid #7bc9b7;
   border-radius: 5px;
   padding: 10px;
   width: 100%;
+  background: #fff;
 }
 
+.wpcf7 input[type="submit"] {
+  background: #fff;
+  padding: 10px;
+  border: 2px solid #7bc9b7;
+  border-radius: 5px;
+}
 
 /* DEV STYLES */
 /* ========================================================================= */
