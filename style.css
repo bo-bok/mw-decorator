@@ -84,12 +84,14 @@ nav {
 .footer {
   min-height: 60px;
   border-top: grey solid 1px;
-  display: flex;
 }
 
 .footer-copyright {
-  text-align: center;
-  justify-content: center;
+  text-align: left;
+}
+
+.footer-email {
+  text-align: right;
 }
 
 /* Content Alignment Containers */
