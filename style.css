@@ -86,12 +86,19 @@ nav {
   border-top: grey solid 1px;
 }
 
-.footer-copyright {
-  text-align: left;
+.footer-copyright,
+.footer-email {
+  text-align: center;
 }
 
-.footer-email {
-  text-align: right;
+@media(min-width: 992px) {
+  .footer-copyright {
+    text-align: left;
+  }
+
+  .footer-email {
+    text-align: right;
+  }
 }
 
 /* Content Alignment Containers */
