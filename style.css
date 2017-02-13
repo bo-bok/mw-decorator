@@ -83,7 +83,22 @@ nav {
 /* ========================================================================= */
 .footer {
   min-height: 60px;
-  background: green;
+  border-top: grey solid 1px;
+}
+
+.footer-copyright,
+.footer-email {
+  text-align: center;
+}
+
+@media(min-width: 992px) {
+  .footer-copyright {
+    text-align: left;
+  }
+
+  .footer-email {
+    text-align: right;
+  }
 }
 
 /* Content Alignment Containers */
@@ -145,7 +160,7 @@ nav {
   min-height: 40vh;
   width: 100%;
   /*background-color: blue;*/
-  padding: 20px 0 20px 0;
+  padding: 20px 0 0 0;
 }
 
 #fp-section3 {
@@ -155,6 +170,12 @@ nav {
   border-top: solid 1px grey;
   text-align: center;
   padding: 20px 0 20px 0;
+}
+
+#fp-section4 {
+  min-height: 20vh;
+  width: 100%;
+  background: orange;
 }
 
 
@@ -214,16 +235,28 @@ nav {
 }
 
 
+.which-banner {
+  width: 100%;
+  background: blue;
+  text-align: center;
+}
+
+
 /* FP section 3 styles - ABOUT */
 /* ========================================================================= */
 
 /*header */
 .about-header {
   font-size: 3em;
+  width: 100%;
 }
 
 /* blurb */
 .about-blurb {
+  /*padding-top: -15px;*/
+  width: 100%;
+  padding-top: 10px;
+  font-size: 1.1em;
 }
 
 /* section content container */
@@ -232,12 +265,13 @@ nav {
   width: 100%;
   height: 100%;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .about-content-container-inner {
   display: table-row;
   height: 100%;
-  background: pink;
+  /*background: pink;*/
 }
 
 .about-img-container,
@@ -262,7 +296,7 @@ nav {
 
 .about-text-table {
   display: table;
-  background: rebeccapurple;
+  /*background: rebeccapurple;*/
   height: 100%;
 }
 
@@ -275,7 +309,7 @@ nav {
 /* About text */
 .about-text-row {
   display: table-row;
-  background: orange;
+  /*background: orange;*/
   height: 25%;
 }
 
@@ -306,8 +340,25 @@ nav {
 /* About section slideshow */
 .fp-section-3-test-slide {
   background: yellow;
+  min-height: 200px;
+
 }
 
+/* FP Section 4 Styles */
+/* ========================================================================= */
+.testimonial-container {
+  display: table;
+  width: 100%;
+  min-height: 20vh;
+  background-color: yellow;
+}
+
+.testimonial-inner {
+  display: table-row;
+  width: 100%;
+  min-height: 20vh;
+  background-color: pink;
+}
 
 /* UNIVERSAL PAGE STYLES */
 /* ========================================================================= */
@@ -335,6 +386,69 @@ nav {
 
 /* SERVICES PAGE */
 /* ========================================================================= */
+.services-content-container {
+  background: pink;
+  width: 100%;
+  display: table;
+  margin-bottom: 20px;
+}
+
+@media(min-width: 768px) {
+  .services-content-container {
+    min-height: 150vh;
+  }
+}
+
+.services-content-section {
+  background: grey;
+  /*border: 10px solid red;*/
+  height: 33.3%;
+  width: 100%;
+  display: table-row;
+}
+
+.services-img {
+  display: table-cell;
+  background: yellow;
+  min-height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  float: left;
+  clear: both;
+}
+
+.services-text {
+  display: table-cell;
+  background: teal;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  float: left;
+  clear: both;
+}
+
+@media(min-width: 768px) {
+  .services-img {
+    width: 40%;
+    float: none;
+    clear: none;
+    min-height: 100%;
+  }
+  .services-text {
+    width: 60%;
+    float: none;
+    clear: none;
+    min-height: 100%;
+  }
+}
+
+/* testimonials section */
+#services-testimonial {
+  min-height: 30vh;
+  width: 100%;
+  background: orange;
+}
 
 
 /* FAQ PAGE */
@@ -343,6 +457,53 @@ nav {
 
 /* CONTACT PAGE */
 /* ========================================================================= */
+
+/* contact form */
+
+.contact-form-container {
+  /*background: yellow;*/
+  margin: 50px 0px 50px 0px;
+  background: #fff;
+}
+
+@media(min-width: 1100px){
+  .contact-form-container {
+    max-width: 80%;
+    margin: auto;
+  }
+}
+
+.wpcf7 p {
+  margin-top: 30px;
+  font-family: sans-serif;
+  line-height: 1.15;
+}
+
+.wpcf7 label {
+  color: #7bc9b7;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  background: #fff;
+}
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea {
+  /*background: red;*/
+  border: 2px solid #7bc9b7;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  background: #fff;
+  color: #595959;
+}
+
+.wpcf7 input[type="submit"] {
+  background: #fff;
+  padding: 10px;
+  border: 2px solid #7bc9b7;
+  border-radius: 5px;
+}
 
 /* DEV STYLES */
 /* ========================================================================= */

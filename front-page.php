@@ -80,6 +80,15 @@
 
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-xs-12 which-banner">
+            <div class="content-container">
+              proud to be a which trusted trader + logo 
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <div id="fp-section3">
@@ -87,17 +96,21 @@
         <div class="row">
 
           <!-- header -->
-          <div class="col-xs-12 about-header">
+          <div class="col-xs-12">
+            <div class="about-header">
             About
-          </div>
+            </div>
 
           <!-- blurb -->
-          <div class="col-xs-12 about-blurb">
-            Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vestibulum id ligula porta felis euismod semper. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna.
+          <div class="about-blurb">
+            We are a family-run painting and decorating business situated in the village of Weldon, near Corby. We work in East Northamptonshire, Market Harborough, Rutland, Stamford and everywhere in-between!
           </div>
 
+        </div>
+
+
           <!-- content -->
-          <div class="about-content-container">
+          <div class="col-xs-12 about-content-container">
             <div class="about-content-container-inner">
 
               <!-- about img -->
@@ -151,17 +164,28 @@
             </div>
           </div>
 
+        </div>
+        </div>
 
-          <!-- testimonial slideshow -->
-          <div class="col-xs-12 fp-section-3-test-slide">
+      </div>
+
+
+      <div id="fp-section4">
+        <div class="content-container">
+
+          <div class="testimonial-container">
+            <div class="testimonial-inner">
+
             <div id="testimonial-slide">
-              <!-- quotes will display here -->
+            </div>
+
             </div>
           </div>
 
         </div>
-        </div>
       </div>
 
+
   </div>
+
 <?php get_footer(); ?>
