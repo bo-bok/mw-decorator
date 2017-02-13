@@ -159,11 +159,6 @@
         </div>
       </div>
 
-      <!-- testimonial slideshow -->
-      <!-- <div class="col-xs-12 fp-section-3-test-slide">
-        <div id="testimonial-slide">
-        </div>
-      </div> -->
 
       <div id="fp-section4">
         <div class="content-container">
@@ -184,11 +179,5 @@
 
 
   </div>
-
-  <!-- testimonial slideshow -->
-  <!-- <div class="col-xs-12 fp-section-3-test-slide">
-    <div id="testimonial-slide">
-    </div>
-  </div> -->
 
 <?php get_footer(); ?>
