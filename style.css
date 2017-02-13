@@ -331,14 +331,14 @@ nav {
 
 /* FP Section 4 Styles */
 /* ========================================================================= */
-.fp-testimonial-container {
+.testimonial-container {
   display: table;
   width: 100%;
   min-height: 20vh;
   background-color: yellow;
 }
 
-.fp-testimonial-inner {
+.testimonial-inner {
   display: table-row;
   width: 100%;
   min-height: 20vh;
@@ -426,6 +426,13 @@ nav {
     clear: none;
     min-height: 100%;
   }
+}
+
+/* testimonials section */
+#services-testimonial {
+  min-height: 20vh;
+  width: 100%;
+  background: orange;
 }
 
 

@@ -50,19 +50,32 @@ get_header(); ?>
           </div>
 
           <div class="services-text">
-Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+            Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
 
-Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.          </div>
+            Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+          </div>
         </div>
 
       </div>
 
-      <div id="testimonial-slide">
-        <!-- quotes will display here -->
+    </div>
+  </div>
+
+  <div id="services-testimonials">
+    <div class="content-container">
+
+      <div class="testimonial-container">
+        <div class="testimonial-inner">
+
+        <div id="testimonial-slide">
+        </div>
+
+        </div>
       </div>
 
     </div>
   </div>
+
 </div>
 
 <?php get_footer(); ?>

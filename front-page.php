@@ -168,8 +168,8 @@
       <div id="fp-section4">
         <div class="content-container">
 
-          <div class="fp-testimonial-container">
-            <div class="fp-testimonial-inner">
+          <div class="testimonial-container">
+            <div class="testimonial-inner">
 
             <div id="testimonial-slide">
             </div>
