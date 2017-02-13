@@ -8,12 +8,7 @@ function newQuote(){
     '...We engaged Michael Ware for a whole-house painting job. Michael was punctual, hardworking, reliable and very considerate of our home and family life throughout the project. He is extremely approachable and always provided excellent communications. We were particularly impressed with the pride he clearly takes in his work and the value for money he delivered. We would definitely recommend Michael Ware for any decorating project. Mr. and Mrs. B, Northamptonshire',
 
     'Mike has now completed a few decorating jobs for us over the past eighteen months. He has good product knowledge and we are delighted with a paint he recommended for a high traffic area.  His rates are competitive, he is punctual, very tidy and respectful of our home. Mike takes great care and pride in his work and is polite and friendly. We will be using him again and we have no hesitation in recommending him. Mrs P – Northants',
-    'So happy with the work Michael has done for us, hanging plain and patterned wallpaper. Friendly, professional and tidy. Can\'t wait to get the next room done! Highly recommended. Charlie & George, Little Stanion',
-    '6',
-    '7',
-    '8',
-    '9',
-    '10'
+    'So happy with the work Michael has done for us, hanging plain and patterned wallpaper. Friendly, professional and tidy. Can\'t wait to get the next room done! Highly recommended. Charlie & George, Little Stanion'a
   ]
 
   var randomNumber = Math.floor(Math.random() * (testimonials.length));
