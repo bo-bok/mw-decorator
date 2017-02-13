@@ -160,7 +160,7 @@ nav {
   min-height: 40vh;
   width: 100%;
   /*background-color: blue;*/
-  padding: 20px 0 20px 0;
+  padding: 20px 0 0 0;
 }
 
 #fp-section3 {
@@ -232,6 +232,13 @@ nav {
 
 .hp-icon {
   height: 150px;
+}
+
+
+.which-banner {
+  width: 100%;
+  background: blue;
+  text-align: center;
 }
 
 
@@ -336,7 +343,6 @@ nav {
   min-height: 200px;
 
 }
-
 
 /* FP Section 4 Styles */
 /* ========================================================================= */

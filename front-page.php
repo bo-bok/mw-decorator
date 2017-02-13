@@ -80,6 +80,15 @@
 
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-xs-12 which-banner">
+            <div class="content-container">
+              proud to be a which trusted trader + logo 
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <div id="fp-section3">
@@ -157,6 +166,7 @@
 
         </div>
         </div>
+
       </div>
 
 
