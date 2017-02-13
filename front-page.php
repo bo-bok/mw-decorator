@@ -97,7 +97,7 @@
           </div>
 
           <!-- content -->
-          <div class="about-content-container">
+          <div class="col-xs-12 about-content-container">
             <div class="about-content-container-inner">
 
               <!-- about img -->
@@ -150,7 +150,6 @@
 
             </div>
           </div>
-
 
           <!-- testimonial slideshow -->
           <div class="col-xs-12 fp-section-3-test-slide">
