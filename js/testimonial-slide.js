@@ -11,8 +11,7 @@ function newQuote(){
 
     'So happy with the work Michael has done for us, hanging plain and patterned wallpaper. Friendly, professional and tidy. Can\'t wait to get the next room done! Highly recommended. Charlie & George, Little Stanion',
 
-    'With Michael Ware the Decorator you get what it says on the estimate - not an inch less, no cut corners and an excellent standard of finish. After a number of disappointments it was a pleasure to at last find a conscientious workman and a first-rate craftsman. We would be pleased to recommend him to anyone seeking to have their house redecorated.
-    - Mr and Mrs M, Corby'
+    'With Michael Ware the Decorator you get what it says on the estimate - not an inch less, no cut corners and an excellent standard of finish. After a number of disappointments it was a pleasure to at last find a conscientious workman and a first-rate craftsman. We would be pleased to recommend him to anyone seeking to have their house redecorated. - Mr and Mrs M Corby'
   ]
 
   var randomNumber = Math.floor(Math.random() * (testimonials.length));
