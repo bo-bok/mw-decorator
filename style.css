@@ -405,6 +405,38 @@ nav {
 /* CONTACT PAGE */
 /* ========================================================================= */
 
+/*.daisy {
+  color: blue;
+  font-size: 2em;
+}
+
+#inputfield {
+  border: solid 1px green;
+  border-radius: 50px;
+font-size: 1em;
+}*/
+
+.wpcf7 {
+  background: yellow;
+}
+
+.wpcf7 p {
+  margin: 0;
+}
+
+.wpcf7 label {
+  color: red;
+  /*padding: 10px;*/
+}
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea {
+  background: red;
+  border: 1px solid #7bc9b7;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
 
 
 /* DEV STYLES */
