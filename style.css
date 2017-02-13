@@ -329,6 +329,22 @@ nav {
 }
 
 
+/* FP Section 4 Styles */
+/* ========================================================================= */
+.fp-testimonial-container {
+  display: table;
+  width: 100%;
+  min-height: 20vh;
+  background-color: yellow;
+}
+
+.fp-testimonial-inner {
+  display: table-row;
+  width: 100%;
+  min-height: 20vh;
+  background-color: pink;
+}
+
 /* UNIVERSAL PAGE STYLES */
 /* ========================================================================= */
 .page-banner-img {
