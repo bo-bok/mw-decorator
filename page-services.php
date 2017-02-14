@@ -24,7 +24,7 @@ get_header(); ?>
         <!-- 1 -->
         <div class="services-content-section">
           <div class="services-img">
-            a.1
+            <img class="service-circle-img" src="<?= get_template_directory_uri()?>/assets/sofa-magazine-closeup.png" />
           </div>
 
           <div class="services-text">
@@ -35,7 +35,7 @@ get_header(); ?>
         <!-- 2 -->
         <div class="services-content-section">
           <div class="services-img">
-            b.1
+            <img class="service-circle-img" src="<?= get_template_directory_uri()?>/assets/wall-paint-swatch-effect.png" />
           </div>
 
           <div class="services-text">
@@ -46,7 +46,7 @@ get_header(); ?>
         <!-- 3 -->
         <div class="services-content-section">
           <div class="services-img">
-            c.1
+            <img class="service-circle-img" src="<?= get_template_directory_uri()?>/assets/bookcase-hallway-kitchen.png" />
           </div>
 
           <div class="services-text">
