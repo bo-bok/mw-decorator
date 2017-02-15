@@ -64,27 +64,33 @@
                     ?>
 
 
-
                   <!-- modal box menu, displayed when user clicks on menu icon on small screens -->
                     <div class="nav-modal">
-                    <div class="nav-modal-inner">
-                      <div class="menu-sm-icon">
-                        <img class="menu-sm-icon-close" src="<?= get_template_directory_uri()?>/assets/menu-icon-close.svg" alt="<?php echo esc_attr(get_bloginfo( 'name' )) ?>"/>
+                      <div class="nav-modal-inner">
+
+                        <div class="menu-sm-icon">
+                          <img class="menu-sm-icon-close" src="<?= get_template_directory_uri()?>/assets/menu-icon-close.svg" alt="<?php echo esc_attr(get_bloginfo( 'name' )) ?>"/>
+                        </div>
+
+                        <div class="nav-modal-table">
+                          <div class="nav-modal-table-row">
+                            <div class="nav-modal-table-cell">
+                              <!-- Displays primary navigation -->
+                              <?php
+                                $defaults = array(
+                                  'container' => false,
+                                  'theme_location' => 'primary-menu', //tells wp where menu lives
+                                  'menu_class' => 'nav-test'
+                                );
+
+                                wp_nav_menu( $defaults );
+                              ?>
+                            </div>
+                          </div>
+                        </div>
+
                       </div>
-
-                      <!-- Displays primary navigation -->
-                      <?php
-                        $defaults = array(
-                          'container' => false,
-                          'theme_location' => 'primary-menu', //tells wp where menu lives
-                          // 'menu_class' => 'nav-small-screen'
-                        );
-
-                        wp_nav_menu( $defaults );
-                      ?>
                     </div>
-                    </div>
-
 
 
                 </div>
