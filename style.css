@@ -428,7 +428,7 @@ nav {
 
 @media(min-width: 768px) {
   .services-content-container {
-    min-height: 150vh;
+    min-height: 120vh;
   }
 }
 
