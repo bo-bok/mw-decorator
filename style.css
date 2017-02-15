@@ -85,6 +85,10 @@ nav {
   border-top: grey solid 1px;
 }
 
+.footer-email {
+  padding-bottom: 10px;
+}
+
 .footer-copyright,
 .footer-email {
   text-align: center;
@@ -92,11 +96,13 @@ nav {
 
 @media(min-width: 992px) {
   .footer-copyright {
-    text-align: left;
+    text-align: right;
   }
 
   .footer-email {
-    text-align: right;
+    text-align: left;
+    padding-bottom: g0;
+
   }
 }
 
@@ -552,6 +558,8 @@ nav {
   border: 2px solid #7bc9b7;
   border-radius: 5px;
 }
+
+
 
 /* DEV STYLES */
 /* ========================================================================= */
