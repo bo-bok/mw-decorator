@@ -62,7 +62,7 @@ get_header(); ?>
   </div>
 
   <div id="services-testimonials">
-    <div class="content-container">
+    <div class="banner-content-container">
 
       <div class="testimonial-container">
         <div class="testimonial-inner">
