@@ -5,7 +5,7 @@ header {
   height: 70px;
   z-index: 999;
   top: 0;
-  border-bottom: 1px dotted grey;
+  box-shadow: 0 0 10px 0 grey;
 }
 
 .header-content-container {
