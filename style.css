@@ -175,7 +175,8 @@ nav {
 #fp-section4 {
   min-height: 20vh;
   width: 100%;
-  background: orange;
+  background: #7bc9b7;
+  /*background: url('assets/testimonial-background/pexels-photo-131683.jpeg');*/
 }
 
 
@@ -237,7 +238,7 @@ nav {
 
 .which-banner {
   width: 100%;
-  background: blue;
+  background: #7bc9b7;
   text-align: center;
 }
 
@@ -357,14 +358,14 @@ nav {
   display: table;
   width: 100%;
   min-height: 20vh;
-  background-color: yellow;
+  /*background-color: yellow;*/
 }
 
 .testimonial-inner {
   display: table-row;
   width: 100%;
   min-height: 20vh;
-  background-color: pink;
+  /*background-color: pink;*/
 }
 
 /* UNIVERSAL PAGE STYLES */
