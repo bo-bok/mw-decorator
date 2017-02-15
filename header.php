@@ -27,7 +27,7 @@
               <div class="header-logo">
 
                 <a href="<?php echo esc_url(home_url("/"))?>">
-                  <img src="<?= get_template_directory_uri()?>/assets/header-logo-placeholder-45x45.png" alt="<?php echo esc_attr(get_bloginfo( 'name' )) ?>"/>
+                  <img src="<?= get_template_directory_uri()?>/assets/mw-logo-sm.png" alt="<?php echo esc_attr(get_bloginfo( 'name' )) ?>"/>
                 </a>
 
               </div>
@@ -72,6 +72,7 @@
                           <img class="menu-sm-icon-close" src="<?= get_template_directory_uri()?>/assets/menu-icon-close.svg" alt="<?php echo esc_attr(get_bloginfo( 'name' )) ?>"/>
                         </div>
 
+<!-- new divs  = 3 -->
                         <div class="nav-modal-table">
                           <div class="nav-modal-table-row">
                             <div class="nav-modal-table-cell">
