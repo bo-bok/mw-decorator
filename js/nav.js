@@ -16,7 +16,3 @@ document.querySelector('.menu-sm-icon-close').addEventListener('click', function
   document.querySelector('body').classList.remove('nav-modal-open');
   document.querySelector('.menu-sm-icon').style.display = 'block';
 });
-
-// if (window.matchMedia("(min-width: 992px)") == true) {
-//   document.querySelector('.nav-modal').style.display = "none";
-// }
