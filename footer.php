@@ -6,7 +6,7 @@
 
 <footer>
   <div class="footer">
-    <div class="content-container">
+    <div class="banner-content-container">
 
       <div class="row">
 
