@@ -61,15 +61,18 @@ get_header(); ?>
     </div>
   </div>
 
-  <div id="services-testimonials">
+
+  <div class="testimonial-section">
     <div class="banner-content-container">
 
-      <div class="testimonial-container">
-        <div class="testimonial-inner">
+      <div class="testimonial-container-table-row">
+        <div class="testimonial-container">
+          <div class="testimonial-inner">
 
-        <div id="testimonial-slide">
-        </div>
+          <div id="testimonial-slide">
+          </div>
 
+          </div>
         </div>
       </div>
 

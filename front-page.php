@@ -170,7 +170,7 @@
       </div>
 
 
-      <div id="fp-section4">
+      <div class="testimonial-section">
         <div class="banner-content-container">
 
           <div class="testimonial-container-table-row">
