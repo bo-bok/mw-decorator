@@ -174,7 +174,7 @@
         <div class="banner-content-container">
 
           <div class="testimonial-container-table-row">
-            <div class="testimonial-container">g
+            <div class="testimonial-container">
               <div class="testimonial-inner">
 
               <div id="testimonial-slide">
