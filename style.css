@@ -390,10 +390,10 @@ nav {
   height: 40vh;
   background: url('assets/mw_hp_background.jpg');
 
-  /*background-attachment: fixed;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right top;*/
+  background-position: right top;
 }
 
 .page-header-text {
