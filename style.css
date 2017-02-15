@@ -273,13 +273,12 @@ nav {
 .about-header {
   font-size: 3em;
   width: 100%;
+  padding-bottom: 10px;
 }
 
 /* blurb */
 .about-blurb {
-  /*padding-top: -15px;*/
   width: 100%;
-  padding-top: 10px;
   padding-bottom: 20px;
   font-size: 1.1em;
 }
@@ -309,6 +308,10 @@ nav {
   clear: both;
 }
 
+.about-text-container {
+  margin-top: 20px;
+}
+
 @media(min-width: 992px) {
   .about-img-container {
     width: 40%;
@@ -322,6 +325,7 @@ nav {
     float: none;
     clear: none;
     height: 100%;
+    padding-top: 0;
   }
 }
 
@@ -360,7 +364,7 @@ nav {
 
 @media(min-width: 992px) {
   .about-text-bullet {
-    padding-left: 40px;
+    padding-left: 80px;
   }
 }
 
