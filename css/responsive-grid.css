@@ -15,7 +15,7 @@
 /* sets all columns to width: 100% */
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    /*padding: 15px;*/
     min-height: 1px; /* prevents horizontal collapse */
     width: 100%;
 }

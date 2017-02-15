@@ -83,8 +83,8 @@
 
         <div class="row">
           <div class="col-xs-12 which-banner">
-            <div class="content-container">
-              proud to be a which trusted trader + logo 
+            <div class="banner-content-container">
+              We're proud to be a Which? Trusted Trader. Find out more <a href="http://trustedtraders.which.co.uk/businesses/michael-ware-the-decorator/" />here</a>
             </div>
           </div>
         </div>
@@ -115,7 +115,7 @@
 
               <!-- about img -->
               <div class="about-img-container">
-                  <img class="about-img" src="<?= get_template_directory_uri()?>/assets/placeholders/wall_illustration.jpg" />
+                  <img class="about-img" src="<?= get_template_directory_uri()?>/assets/lounge-fireplace-curtain.png" />
               </div>
 
               <!-- about text -->
@@ -170,15 +170,17 @@
       </div>
 
 
-      <div id="fp-section4">
-        <div class="content-container">
+      <div class="testimonial-section">
+        <div class="banner-content-container">
 
-          <div class="testimonial-container">
-            <div class="testimonial-inner">
+          <div class="testimonial-container-table-row">
+            <div class="testimonial-container">
+              <div class="testimonial-inner">
 
-            <div id="testimonial-slide">
-            </div>
+              <div id="testimonial-slide">
+              </div>
 
+              </div>
             </div>
           </div>
 

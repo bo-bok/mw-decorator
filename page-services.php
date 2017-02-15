@@ -24,35 +24,33 @@ get_header(); ?>
         <!-- 1 -->
         <div class="services-content-section">
           <div class="services-img">
-            a.1
+            <img class="service-circle-img" src="<?= get_template_directory_uri()?>/assets/sofa-magazine-closeup.png" />
           </div>
 
           <div class="services-text">
-            a.2
+            Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam quis risus eget urna mollis ornare vel eu leo. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
           </div>
         </div>
 
         <!-- 2 -->
         <div class="services-content-section">
           <div class="services-img">
-            b.1
+            <img class="service-circle-img" src="<?= get_template_directory_uri()?>/assets/wall-paint-swatch-effect.png" />
           </div>
 
           <div class="services-text">
-            b.2
+            Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
           </div>
         </div>
 
         <!-- 3 -->
         <div class="services-content-section">
           <div class="services-img">
-            c.1
+            <img class="service-circle-img" src="<?= get_template_directory_uri()?>/assets/bookcase-hallway-kitchen.png" />
           </div>
 
           <div class="services-text">
-            Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Maecenas faucibus mollis interdum. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
-
-            Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+            Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Donec id elit non mi porta gravida at eget metus.
           </div>
         </div>
 
@@ -61,15 +59,18 @@ get_header(); ?>
     </div>
   </div>
 
-  <div id="services-testimonials">
-    <div class="content-container">
 
-      <div class="testimonial-container">
-        <div class="testimonial-inner">
+  <div class="testimonial-section">
+    <div class="banner-content-container">
 
-        <div id="testimonial-slide">
-        </div>
+      <div class="testimonial-container-table-row">
+        <div class="testimonial-container">
+          <div class="testimonial-inner">
 
+          <div id="testimonial-slide">
+          </div>
+
+          </div>
         </div>
       </div>
 

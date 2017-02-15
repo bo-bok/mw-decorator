@@ -6,16 +6,16 @@
 
 <footer>
   <div class="footer">
-    <div class="content-container">
+    <div class="banner-content-container">
 
       <div class="row">
 
-        <div class="col-xs-12 col-md-6 footer-copyright">
-          &copy; Michael Ware <?php echo date('Y'); ?>.
+        <div class="col-xs-12 col-md-5 footer-email">
+          michaelwarethedecorator@gmail.com
         </div>
 
-        <div class="col-xs-12 col-md-6 footer-email">
-          michaelwarethedecorator@gmail.com
+        <div class="col-xs-12 col-md-7 footer-copyright">
+          Copyright (c) <?php echo date('Y'); ?> Michael Ware All Rights Reserved.
         </div>
 
       </div>

@@ -16,7 +16,7 @@ get_header(); ?>
       </div>
 
       <div class="page-blurb">
-        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec sed odio dui.
+        Please get in touch with any questions or to arrange your free no-obligation quote. We try to respond to all queries as quickly as possible. 
       </div>
 
       <div class="contact-form-container">
