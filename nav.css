@@ -9,7 +9,7 @@ body.nav-modal-open {
 .nav-modal {
   height: 100vh;
   width: 100%;
-  background: pink;
+  background: rgba(255, 192, 203, 0.60 );
   right: 0;
   top: 0;
   position: absolute;
@@ -25,18 +25,23 @@ body.nav-modal-open {
 
   .nav-modal {
     width: 40%;
-  }g
+  }
+
+  .menu-sm-icon-close  {
+    margin-right: 45px;
+  }
 }
 
 .nav-modal-inner {
-  width: 75%;
+  width: 80%;
   margin: auto;
-  background: green;
+  background: rgba(109, 236, 101, 0.5);
   /*height: 100vh;*/
 }
 
 .menu-sm-icon {
   text-align: right;
+  height: 70px;
 }
 .menu-sm-icon-open,
 .menu-sm-icon-close {
@@ -44,6 +49,9 @@ body.nav-modal-open {
   width: 45px;
 }
 
+.menu-sm-icon-close  {
+  margin-top: 10px;
+}
 
 .nav-container li {
   display: block;
@@ -156,7 +164,7 @@ body.nav-modal-open {
 .nav-modal-table {
   display: table;
   height: 100vh;
-  background: yellow;
+  /*background: yellow;*/
   width: 100%;
   position: static;
 }
@@ -165,7 +173,7 @@ body.nav-modal-open {
 .nav-modal-table-row {
   display: table-row;
   height: 100%;
-  background: purple;
+  /*background: purple;*/
   width: 100%;
 }
 
@@ -174,7 +182,7 @@ body.nav-modal-open {
 .nav-modal-table-cell {
   display: table-cell;
   height: 100%;
-  background: yellowgreen;
+  background: rgba(97, 184, 50, 0.4);
   width: 100%;
   vertical-align: middle;
   text-align: center;
