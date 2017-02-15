@@ -178,7 +178,6 @@ nav {
   min-height: 60vh;
   width: 100%;
   /*background-color: pink;*/
-  border-top: solid 1px grey;
   text-align: center;
   /*padding: 20px 0 20px 0;*/
 }
@@ -440,7 +439,7 @@ nav {
 }*/
 
 .services-content-container {
-  background: pink;
+  /*background: pink;*/
   width: 100%;
   display: table;
   margin-bottom: 20px;
@@ -453,7 +452,7 @@ nav {
 }
 
 .services-content-section {
-  background: grey;
+  /*background: grey;*/
   /*border: 10px solid red;*/
   height: 33.3%;
   width: 100%;
@@ -462,7 +461,7 @@ nav {
 
 .services-img {
   display: table-cell;
-  background: yellow;
+  /*background: yellow;*/
   min-height: 100%;
   width: 100%;
   vertical-align: middle;
@@ -473,7 +472,7 @@ nav {
 
 .services-text {
   display: table-cell;
-  background: teal;
+  /*background: teal;*/
   width: 100%;
   vertical-align: middle;
   text-align: center;
