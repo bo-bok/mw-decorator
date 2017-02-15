@@ -209,16 +209,25 @@ nav {
 .c {
   /*background: orange;*/
   font-size: 2em;
-  padding: 10px 0 10px 0;
-
-
+  padding: 0;
 }
 
 .d {
   /*background: teal;*/
-  padding: 10px 0 10px 0;
+  padding: 0 0 40px 0;
 
 }
+
+@media(min-width: 992px) {
+  .c {
+    padding: 10px 0 10px 0;
+  }
+
+  .d {
+    padding: 10px 0 10px 0;
+  }
+}
+
 .fp-s2-table {
   display: table;
   width: 100%;
