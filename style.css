@@ -501,15 +501,19 @@ nav {
 
 .contact-form-container {
   /*background: yellow;*/
-  margin: 50px 0px 50px 0px;
   background: #fff;
+  margin-top: -30px;
 }
 
 @media(min-width: 1100px){
-  .page-blurb,
-  .contact-form-container {
+  .page-blurb {
     max-width: 80%;
     margin: auto;
+  }
+
+  .contact-form-container {
+    max-width: 80%;
+    margin: -30px auto 0 auto; /*offset padidng on first p in form*/
   }
 }
 
@@ -518,6 +522,10 @@ nav {
   font-family: sans-serif;
   line-height: 1.15;
 }
+
+/*.wpcf7 p:first-child {
+  margin-top: 0;
+}*/
 
 .wpcf7 label {
   color: #7bc9b7;
