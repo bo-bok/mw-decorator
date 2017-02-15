@@ -13,11 +13,12 @@ body {
 * {
   box-sizing: border-box;
   color: #595959;
+  line-height: 1.4em;
 }
 
 /* HEADER */
 /* ========================================================================= */
-header {
+/*header {
   background: #fff;
   position: fixed;
   width: 100%;
@@ -30,20 +31,18 @@ header {
 .header-outer-inner {
   display: table;
   width: 100%;
-
+  height: 100%;
 }
 
 .header-inner {
   display: table-row;
   min-width: 100%;
-  /*background: yellow;*/
 }
 
 .header-logo,
 .header-info,
 nav {
   display: table-cell;
-  /*background: purple;*/
   vertical-align: middle;
   color: #595959;
 }
@@ -54,16 +53,15 @@ nav {
 
 .header-info {
   width: 50%;
+
 }
 
   .header-info-name {
-    /*width: 25%;*/
     height: 50%;
     padding-left: 10px;
   }
 
   .header-info-number {
-    /*width: 25%;*/
     height: 50%;
     padding-left: 10px;
     display: none;
@@ -74,7 +72,8 @@ nav {
   .header-info-number {
     display: block;
   }
-}
+}*/
+
 /* NAVIGATION */
 /* ========================================================================= */
 /* nav.css
@@ -109,20 +108,26 @@ nav {
   min-height: 100%;
 }
 
-.header-content-container {
+/*.header-content-container {
   max-width: 80%;
   margin: auto;
   padding: 10px 0 10px 0;
-  /*position: relative;*/
-  /*background: orange;*/
-  /*z-index: 2000;*/
-}
+  height: 100%;
+}*/
 
 .content-container {
   /*background: pink;*/
   max-width: 80%;
   margin: auto;
   height: 100%;
+  padding: 40px 0 40px 0;
+}
+
+.banner-content-container {
+  max-width: 80%;
+  margin: auto;
+  height: 100% !important;
+  padding: 20px 0 20px 0;
 }
 
 
@@ -160,23 +165,25 @@ nav {
   min-height: 40vh;
   width: 100%;
   /*background-color: blue;*/
-  padding: 20px 0 0 0;
+  /*padding: 20px 0 0 0;*/
 }
 
 #fp-section3 {
-  min-height: 80vh;
+  min-height: 60vh;
   width: 100%;
   /*background-color: pink;*/
   border-top: solid 1px grey;
   text-align: center;
-  padding: 20px 0 20px 0;
+  /*padding: 20px 0 20px 0;*/
 }
 
 #fp-section4 {
-  min-height: 20vh;
+  min-height: 10vh;
   width: 100%;
-  background: #7bc9b7;
-  /*background: url('assets/testimonial-background/pexels-photo-131683.jpeg');*/
+  border-top: #7bc9b7 15px solid;
+  border-bottom: #7bc9b7 15px solid;
+  display: table;
+   /*background: url('assets/testimonial-background/pexels-photo-131683.jpeg');*/
 }
 
 
@@ -186,6 +193,7 @@ nav {
 .a {
   /*background: yellow;*/
   font-size: 3em;
+  padding-bottom: 10px;
 }
 
 .b {
@@ -257,6 +265,7 @@ nav {
   /*padding-top: -15px;*/
   width: 100%;
   padding-top: 10px;
+  padding-bottom: 20px;
   font-size: 1.1em;
 }
 
@@ -354,10 +363,17 @@ nav {
 
 /* FP Section 4 Styles */
 /* ========================================================================= */
+
+.testimonial-container-table-row {
+  display: table-row;
+}
+
 .testimonial-container {
-  display: table;
+  /*display: table;*/
+  display: table-cell;
+  vertical-align: middle;
   width: 100%;
-  min-height: 20vh;
+  min-height: 100%;
   /*background-color: yellow;*/
 }
 
